@@ -44,6 +44,7 @@ body{
     justify-content: center;
 }
 
+
 /* CSS For Explore Plus Text */
 .explore_text{
     font-size: 12px;
@@ -97,7 +98,9 @@ input {
     font-weight: bold;
     background-color: white;
     border : none;
-    margin-left : 100px
+    margin-left : 100px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 /* More */
@@ -107,11 +110,16 @@ input {
     color: white;
     font-weight: bold;
     margin-left : 100px;
+    cursor: pointer;
 }
 
 /* Product Explore Div */
 .item2{
     background-color: white;
+}
+
+.explore_img{
+    height: 50px;
 }
 
 .explore_tab{
@@ -129,10 +137,16 @@ input {
     text-align: center;
 }
 
+.explore-item a{
+    text-decoration: none;
+}
+
 .item_text{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    font-weight: bold
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -183,6 +197,8 @@ input {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 
 /* Deals Component Grid */
@@ -306,21 +322,6 @@ input {
     }
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-
-
 
 
 @media only screen and (max-width: 728px) {
@@ -334,12 +335,14 @@ input {
     }
 
     .flipkart-logo{
-        padding: 0;
+        padding: 0;        
     }
 
     .login_btn{
         margin-left: 20px;
+        padding: 6px 20px;
         font-size: 12px;
+        border-radius: 4px;
     }
 
     .explore_img{
@@ -369,7 +372,7 @@ input {
     .product_image{
         padding : 10px;
         /* width: 70%; */
-        height : 40px;
+        height : 100px;
     }
 
     .itemCom1{
